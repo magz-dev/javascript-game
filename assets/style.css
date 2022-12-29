@@ -1,4 +1,4 @@
-{    margin:0;
+*{    margin:0;
     padding:0;
     box-sizing: border-box;
 }
@@ -6,4 +6,52 @@
 h1 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    margin: 40px;
+    color: rgb(73, 69, 69);
+    
+}
+
+
+
+h2, p {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(73, 69, 69);
+    
+}
+
+.game-area {
+    background-color: rgb(254, 225, 82);
+  
+    padding: 15px;
+}
+
+
+.result-area {
+    text-align: center;
+    padding: 20px;;
+
+}
+
+
+.option {
+    display: inline-block;
+    margin: 50px 40px;
+
+}
+
+.options {
+    text-align: center;
+}
+
+.option:hover{
+    cursor: pointer;
+}
+
+#message {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    background:  rgb(73, 69, 69);
+    color: white;
 }
