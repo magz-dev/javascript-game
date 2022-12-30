@@ -15,20 +15,21 @@ h1 {
 
 h2, p {
     font-family: 'Roboto', sans-serif;
-    color: rgb(73, 69, 69);
+    color:white;
     
 }
 
 .game-area {
-    background-color: rgb(254, 225, 82);
-  
+    background-color:darkcyan;
     padding: 15px;
+    color: white;
 }
 
 
 .result-area {
     text-align: center;
     padding: 20px;;
+    background: rgb(228, 43, 43);
 
 }
 
@@ -49,9 +50,9 @@ h2, p {
 
 #message {
     font-size: 25px;
-    font-weight: bold;
     text-align: center;
-    margin: 20px;
+    font-weight: bold;
+    margin: 40px;
     background:  rgb(73, 69, 69);
-    color: white;
+    
 }
