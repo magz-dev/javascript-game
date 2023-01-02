@@ -20,7 +20,7 @@ h2, p {
 }
 
 .game-area {
-    background-color:darkcyan;
+    background:rgb(19, 3, 3);
     padding: 15px;
     color: white;
 }
@@ -29,7 +29,7 @@ h2, p {
 .result-area {
     text-align: center;
     padding: 20px;;
-    background: rgb(228, 43, 43);
+    background: rgb(69, 27, 184);
 
 }
 
@@ -53,6 +53,6 @@ h2, p {
     text-align: center;
     font-weight: bold;
     margin: 40px;
-    background:  rgb(73, 69, 69);
+    background: rgb(104, 102, 102);
     
 }
