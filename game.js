@@ -61,3 +61,12 @@ function getResult() {
 
 };
 
+let game = {
+  possibleChoices:[],
+  randomNumber:[],
+  possibleChoices:['Rock', 'Paper', 'Scissors']
+
+};
+
+
+module.exports = { game };
