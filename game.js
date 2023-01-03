@@ -1,4 +1,4 @@
-//new variables
+// variables
 const computerChoice = document.getElementById('computer-choice');
 const userChoice= document.getElementById('user-choice');
 const resultDisplay = document.getElementById('result');
@@ -8,28 +8,29 @@ let computer;
 let result;
 
 // add event listener to all the buttons
-possibleChoices.forEach(button => button.addEventListener('click', (event) => {
+possibleChoices.forEach(button => button.addEventListener('click',(event) => {
   user = event.target.id;// get id of a button clicked
   userChoice.innerHTML = user;
   getComputerChoice();
   getResult();
+ 
 }));
 
 // generates a computer choice
 function getComputerChoice() {
-  const randomNumber = Math.floor(Math.random() * possibleChoices.length) // creates a random integer
-  if (randomNumber === 0) {
-    computer = 'Rock';
-  }
-  else if (randomNumber === 1) {
-    computer = 'Paper';
-  }
-  else if (randomNumber === 2) {
-    computer = 'Scissors';
+  var randomNumber = Math.floor(Math.random() * possibleChoices.length);
+  switch (randomNumber) {
+    case 0:
+      computer = "Rock";
+    case 1:
+      computer = "Paper";
+    case 2:
+      computer = "Scissors"
+      break;
   }
   computerChoice.innerHTML = computer // displays result in the html
+}
 
-};
 
 // generates a result
 function getResult() {
