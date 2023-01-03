@@ -1,21 +1,15 @@
+const computerChoice = document.getElementById('computer-choice');
+const useryChoice= document.getElementById('user-choice');
+const resultDisplay = document.getElementById('result');
+const possibleChoices = document.getElementsByTagName('button');
+let user;
+let computer;
+let result;
 
-//DOM elements
-const yourScore = 0;
-const computerScore = 0;
-const yourScoreSpan = document.getElementById('your-score');
-const computerScoreSpan = document.getElementById('computer-score');
-const scoreArea = document.getElementsByClassName('score-area');
-const resultArea = document.getElementsByClassName('result-area');
-const rockDiv = document.getElementById('rock');
-const paperDiv = document.getElementById('paper');
-const scissorsDiv = document.getElementById('scissors' );
-
-//functions
-//create a function to generate computer choice
-function getComputerChoice() {
-  let choices = ['rock', 'paper', 'scissors']
-}
-
-
-
-
+//
+possibleChoices.forEach(buttons => buttons.addEventListener('click', (event) => {
+  userChoice = event.target.id
+  userChoice.innerHTML = user
+  getComputerChoice()
+  getResult()
+}))

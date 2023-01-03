@@ -19,10 +19,10 @@ h2, p {
     
 }
 
-.game-area {
+.choice-area {
     background:rgb(19, 3, 3);
     padding: 15px;
-    color: white;
+    color: rgb(253, 253, 253);
 }
 
 
@@ -33,20 +33,6 @@ h2, p {
 
 }
 
-
-.option {
-    display: inline-block;
-    margin: 50px 40px;
-
-}
-
-.options {
-    text-align: center;
-}
-
-.option:hover{
-    cursor: pointer;
-}
 
 #message {
     font-size: 25px;
