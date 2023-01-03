@@ -5,7 +5,9 @@
 
 h1 {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Chivo Mono', monospace;
+
+
     margin: 40px;
     color: rgb(73, 69, 69);
     
@@ -14,7 +16,8 @@ h1 {
 
 
 h2, p {
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Chivo Mono', monospace;
+
     color:white;
     
 }
@@ -35,7 +38,7 @@ h2, p {
 
 
 #message {
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
     margin: 40px;
@@ -43,6 +46,36 @@ h2, p {
     
 }
 
-.score-area {
-    background: black;
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+#Rock {
+    margin: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Chivo Mono', monospace;;
+}
+
+#Paper {
+    margin: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Chivo Mono', monospace;;
+
+
+}
+
+#Scissors {
+    margin: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Chivo Mono', monospace;;
+
+
 }

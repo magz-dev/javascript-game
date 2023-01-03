@@ -21,9 +21,11 @@ function getComputerChoice() {
   var randomNumber = Math.floor(Math.random() * possibleChoices.length);
   switch (randomNumber) {
     case 0:
-      computer = "Rock";
+      computer = "Rock"
+      break;
     case 1:
-      computer = "Paper";
+      computer = "Paper"
+      break;
     case 2:
       computer = "Scissors"
       break;
