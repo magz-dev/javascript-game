@@ -1,14 +1,14 @@
  
- /*styles heading */
+
+/*styles heading */
 
 h1 {
     text-align: center;
     font-family: 'Chivo Mono', monospace;
-   
     color: rgb(73, 69, 69);
     margin: 30px;
+    font-weight: bold;
 }
-
 
  /* styles font*/
 
@@ -47,8 +47,7 @@ h2, p {
     font-family: 'Chivo Mono', monospace;
     margin-top: 35px;
     text-transform: uppercase;
-    margin-left: 115px;
-    padding: 15px 50px;
+   
 
 }
 
@@ -57,8 +56,6 @@ h2, p {
    font-family: 'Chivo Mono', monospace;
    margin-top: 35px;
    text-transform: uppercase;
-   padding: 15px 50px;
-   margin-left: 115px;
    
 }
 
@@ -66,9 +63,8 @@ h2, p {
     
     font-family: 'Chivo Mono', monospace;
     margin-top: 35px;
-    margin-left: 115px;
     text-transform: uppercase;
-    padding: 15px 50px;
+   
 
 }
 
