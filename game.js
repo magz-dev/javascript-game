@@ -21,16 +21,16 @@ function getComputerChoice() {
   var randomNumber = Math.floor(Math.random() * possibleChoices.length);
   switch (randomNumber) {
     case 0:
-      computer = "Rock"
+      computer = "Rock";
       break;
     case 1:
-      computer = "Paper"
+      computer = "Paper";
       break;
     case 2:
-      computer = "Scissors"
+      computer = "Scissors";
       break;
   }
-  computerChoice.innerHTML = computer // displays result in the html
+  computerChoice.innerHTML = computer; // displays result in the html
 }
 
 
@@ -57,9 +57,9 @@ function getResult() {
   else if (computer === 'Scissors' && user === 'Paper') {
     result = 'Aww you lost.';
   }
-  resultDisplay.innerHTML = result // displays result in the html
+  resultDisplay.innerHTML = result; // displays result in the html
 
-};
+}
 
 let game = {
   possibleChoices:[],
