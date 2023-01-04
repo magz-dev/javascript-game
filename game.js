@@ -7,7 +7,7 @@ let user;
 let computer;
 let result;
 
-// add event listener to all the buttons
+// adds event listener to all the buttons
 possibleChoices.forEach(button => button.addEventListener('click',(event) => {
   user = event.target.id;// get id of a button clicked
   userChoice.innerHTML = user;
