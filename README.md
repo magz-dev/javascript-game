@@ -1,15 +1,28 @@
 # Rock Paper Scissors
 
 
+This is a game created using JavaScript. Rock Paper Scissors is simple and fun to play.
+
 
 ![Am I Responsive_ - Google Chrome 04_01_2023 23_29_46](https://user-images.githubusercontent.com/97630146/210672931-9ad8ab8a-5e81-44a0-a9a1-8184737d3e51.png)
 
 
-#### This is my first game created using JavaScript. Rock Paper Scissors is simple but fun to play.
 
-## Testing
+## User Stories
 
-### The Jshint, W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no errors in the project. 
+
+- Users are automatically greeted with a clean and easily readable heading
+- Users can easily understand the main purpose of the site
+- Users are comfortable with the website layout
+- Users can easily read communicates displayed 
+- Users can easily click selected buttons
+- Users enjoy playing the game
+- Users can understand how to play the game
+
+
+ ## Testing
+ 
+ The Jshint, W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no errors in the project. 
 - Errors found when validating the html file have been fixed
 
 
@@ -24,12 +37,17 @@
 ![W3C CSS Validator results for https___magz-dev github io_my-javascript-game_ (CSS level 3 + SVG) - Google Chrome 05_01_2023 01_02_17](https://user-images.githubusercontent.com/97630146/210679674-36e3f15b-1063-4207-b5f6-5a3b796a8a1e.png)
 
 
-- There has been a number of automated tests written for the game to run in Jest.
-- The site is fully responsive and user friendly.
+- There is a number of automated tests designed to run using Jest
+- The site is fully responsive 
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX
+- Friends were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
 
 ## Deployment
 
+
 ### GitHub Pages
+
 
 - The project was deployed to GitHub Pages using the following steps:
 
@@ -40,14 +58,18 @@
 5. The page will automatically refresh.
 6. Scroll up through the page to locate the now published site link in the "GitHub Pages" section.
 
+
 ### Forking the GitHub Repository
+
 
 - By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 1. Log in to GitHub and locate the GitHub Repository.
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
+
 ### Making a Local Clone
+
 
 1. Log in to GitHub and locate the GitHub Repository
 2. Under the repository name, click "Clone or download".
@@ -62,12 +84,14 @@
 
 ## Credits
 
+
 - The favicon came from https://icons8.com/
-- Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- Bootstrap Library used throughout the project mainly to make the website responsive using the Bootstrap Grid System.
 - Some code in HTML and JavaScript is from following video tutorials:
- + https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=996s
- + https://www.youtube.com/watch?v=jaVNP3nIAv0&t=1427s
-- During developing I used from https://www.w3schools.com/ and learning material from Code Institute to fix bugs and make the site responsive
+- https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=996s
+- https://www.youtube.com/watch?v=jaVNP3nIAv0&t=1427s
+- During developing used help of https://www.w3schools.com/ and learning material from Code Institute to fix bugs and make the site responsive
+- installed Jest - JavaScript testing framework to run automatic testing
 
  
 
