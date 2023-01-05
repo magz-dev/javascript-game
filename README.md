@@ -1,7 +1,6 @@
-# Rock Paper Scissors
+# Rock Paper Scissors in JavaScript
 
-
-This is a game created using JavaScript. Rock Paper Scissors is simple and fun to play.
+ Rock Paper Scissors is a simple and fun game to play.
 
 
 ![Am I Responsive_ - Google Chrome 04_01_2023 23_29_46](https://user-images.githubusercontent.com/97630146/210672931-9ad8ab8a-5e81-44a0-a9a1-8184737d3e51.png)
@@ -21,6 +20,7 @@ This is a game created using JavaScript. Rock Paper Scissors is simple and fun t
 
 
  ## Testing
+ 
  
  The Jshint, W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no errors in the project. 
 - Errors found when validating the html file have been fixed
