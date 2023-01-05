@@ -5,7 +5,7 @@
 ![Am I Responsive_ - Google Chrome 04_01_2023 23_29_46](https://user-images.githubusercontent.com/97630146/210672931-9ad8ab8a-5e81-44a0-a9a1-8184737d3e51.png)
 
 
-### This my very first game created in JavaScript. Rock Paper Scissors is simple but fun to play.
+#### This is my first game created using JavaScript. Rock Paper Scissors is simple but fun to play.
 
 ## Testing
 
@@ -59,6 +59,17 @@
 ``` $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY ```
 
 7. Press Enter. Your local clone will be created.
+
+## Credits
+
+- The favicon came from https://icons8.com/
+- Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- Some code in HTML and JavaScript is from following video tutorials:
+ + https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=996s
+ + https://www.youtube.com/watch?v=jaVNP3nIAv0&t=1427s
+- During developing I used from https://www.w3schools.com/ and learning material from Code Institute to fix bugs and make the site responsive
+
+ 
 
 
 
