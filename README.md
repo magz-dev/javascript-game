@@ -94,7 +94,7 @@ The live link can be found here - https://magz-dev.github.io/my-javascript-game/
 - https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=996s
 - https://www.youtube.com/watch?v=jaVNP3nIAv0&t=1427s
 - During developing used help of https://www.w3schools.com/ and learning material from Code Institute to fix bugs and make the site responsive
-- installed Jest - JavaScript testing framework to run automatic testing
+- Jest - JavaScript testing framework to run automatic testing
 
  
 
