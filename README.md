@@ -58,7 +58,7 @@
 5. The page will automatically refresh.
 6. Scroll up through the page to locate the now published site link in the "GitHub Pages" section.
 
-The live link can be found here -https://magz-dev.github.io/my-javascript-game/
+The live link can be found here - https://magz-dev.github.io/my-javascript-game/
 
 
 ### Forking the GitHub Repository
